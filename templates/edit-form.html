@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+<body>
+    
+    <form action="/api/cupcakes/update" method="PATCH">
+        <h1>Update cupcake</h1>
+
+        <label for="id">ID</label>
+        <input type="number" name="id">
+<br><br>        
+        <label for="flavor">Flavor</label>
+        <input type="text" name="flavor">
+<br><br>
+        <label for="size">Size</label>
+        <input type="text" name="size">
+<br><br>
+        <label for="rating">Rating</label>
+        <input type="number" name="rating">
+<br><br>
+        <label for="image">Image</label>
+        <input type="text" name="image">
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
